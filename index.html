@@ -1,0 +1,111 @@
+    <!DOCTYPE HTML>
+<html>
+<head>
+
+<script type = "text/javascript">
+    
+function expand(e,f){
+		var a=document.getElementById(e);
+		var b=document.getElementById(f);
+		if(!a || !b)return true;
+		if (a.style.display=="none") {
+			a.style.display="block";
+			b.innerHTML="hide notes";
+		} else {
+			a.style.display="none";
+			b.innerHTML="show notes";
+		}
+		return true;
+	}
+	
+	</script>
+
+    <title>
+        John Lempka
+    </title>
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+
+
+    
+    <style type = "text/css">
+    
+    	body {
+    		text-align: left;
+			background: url('./images/blackhorsepike.jpg') no-repeat center center fixed;
+			background-size:cover;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			font-family: "Georgia", serif;
+			font-size: 15px;
+            color: #555;
+            font-style:italic;
+    	}
+    	
+        p {
+         margin: 0;
+        }
+        
+    	a, a:visited {
+            color: #888;
+    		text-decoration: none;
+    		
+    	}
+    	
+    	a:hover {
+    		color: #555;
+    	}
+    	
+    	a img {
+    		border: none;
+    	}
+    	
+    	#header {
+    		background: rgba(255,255,255,.5);
+        	position:absolute;
+            bottom: 75px;
+            left: 50px;
+            padding: 15px;
+            display:inline-block;
+            border-right: 20px solid cornflowerblue;
+            
+    	}
+    	
+        h1 {
+            font-family:Arial, sans-serif;
+            font-size: 67px;
+            letter-spacing: -5px;
+            margin: 0;
+            color: #000;
+            font-style:normal;
+        }
+            
+    	
+    	#info {
+    		text-align:left;
+            font-style:normal;
+            text-transform:uppercase;
+            letter-spacing: 1px;
+            font-family: Arial, sans-serif;
+            font-size:10px;
+           margin-top:10px;
+    	}
+        
+        
+        
+    	
+    </style>
+    
+</head>
+
+<body>
+<div id = "header">
+    <h1>John Lempka</h1>
+    <p>I, too, live in Brooklyn.</p>
+	<div id="info">
+    
+    <p>johnlempka AT gmail DOT com &bull;
+	<a href="http://blog.johnlempka.com" id = "start">blog</a> &bull; <a href = "http://twitter.com/johnlempka">twitter</a></p></div>
+</div>
